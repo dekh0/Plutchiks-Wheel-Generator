@@ -6,7 +6,8 @@ function generate() {
         word2 = getRandomEmotion();
     }
 
-    document.getElementById("result").innerHTML = word1.toUpperCase() + " + " + word2.toUpperCase();
+    document.getElementById("result1").innerHTML = word1.toUpperCase();
+    document.getElementById("result2").innerHTML = word2.toUpperCase();
 }
 
 function getRandomEmotion() {
